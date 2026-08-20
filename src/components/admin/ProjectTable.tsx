@@ -12,10 +12,7 @@ import {
   Eye,
   EyeOff,
   Search,
-  CheckCircle2,
   AlertTriangle,
-  FolderGit2,
-  Sparkles,
   Plus
 } from 'lucide-react';
 import { formatDate } from '../../lib/utils';

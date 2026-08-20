@@ -8,8 +8,6 @@ import {
   LayoutDashboard,
   Menu,
   X,
-  ExternalLink,
-  Sparkles,
   ArrowRight,
   UserCheck
 } from 'lucide-react';

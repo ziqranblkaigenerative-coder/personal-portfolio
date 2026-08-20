@@ -5,9 +5,7 @@ import { isSupabaseConfigured } from '../../lib/supabase';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import {
-  LayoutDashboard,
   FolderPlus,
-  UserCheck,
   Database,
   ExternalLink,
   LogOut,
@@ -16,8 +14,6 @@ import {
   Code2,
   FolderGit2,
   Sliders,
-  CheckCircle2,
-  HelpCircle
 } from 'lucide-react';
 
 interface AdminLayoutProps {

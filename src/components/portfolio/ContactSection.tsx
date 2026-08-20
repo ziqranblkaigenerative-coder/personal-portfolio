@@ -10,7 +10,6 @@ import {
   MessageSquare,
   MapPin,
   Clock,
-  Sparkles,
   Phone,
   CheckCircle2
 } from 'lucide-react';

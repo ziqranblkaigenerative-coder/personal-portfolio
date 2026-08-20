@@ -1,7 +1,6 @@
 import React from 'react';
 import { useProjects } from '../../contexts/ProjectContext';
-import { Briefcase, GraduationCap, Calendar, Building, Sparkles } from 'lucide-react';
-import { Badge } from '../ui/Badge';
+import { Briefcase, GraduationCap, Calendar, Building } from 'lucide-react';
 
 export const ExperienceSection: React.FC = () => {
   const { profile } = useProjects();

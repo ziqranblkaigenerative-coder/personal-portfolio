@@ -15,7 +15,6 @@ import {
   Plus,
   X,
   Sparkles,
-  Link,
   Github,
   Globe,
   Tag
