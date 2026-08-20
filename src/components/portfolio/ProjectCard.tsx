@@ -1,7 +1,7 @@
 import React from 'react';
 import { Project } from '../../lib/types';
 import { Badge } from '../ui/Badge';
-import { ExternalLink, Github, ArrowUpRight, Star, Sparkles } from 'lucide-react';
+import { ExternalLink, Github, ArrowUpRight, Star } from 'lucide-react';
 
 interface ProjectCardProps {
   project: Project;

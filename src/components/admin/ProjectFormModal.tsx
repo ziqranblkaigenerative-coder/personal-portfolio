@@ -14,7 +14,6 @@ import {
   Image as ImageIcon,
   Plus,
   X,
-  Sparkles,
   Github,
   Globe,
   Tag

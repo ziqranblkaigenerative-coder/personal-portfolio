@@ -14,12 +14,11 @@ import {
   ArrowLeft,
   ShieldCheck,
   AlertCircle,
-  Database,
   Sparkles
 } from 'lucide-react';
 
 export const LoginPage: React.FC = () => {
-  const { signInWithPassword, signInWithDemo, loading } = useAuth();
+  const { signInWithPassword, signInWithDemo } = useAuth();
   const { toast } = useToast();
 
   const [email, setEmail] = useState('');

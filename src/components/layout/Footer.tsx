@@ -1,6 +1,6 @@
 import React from 'react';
 import { useProjects } from '../../contexts/ProjectContext';
-import { Github, Linkedin, Twitter, Mail, ArrowUp, Heart, Code2, Sparkles } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, ArrowUp, Code2 } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { profile } = useProjects();

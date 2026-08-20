@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useProjects } from '../../contexts/ProjectContext';
 import { Button } from '../ui/Button';
-import { Badge } from '../ui/Badge';
 import {
   Code2,
   LayoutDashboard,

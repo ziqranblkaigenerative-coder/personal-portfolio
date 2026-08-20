@@ -14,9 +14,7 @@ import {
   Github,
   Linkedin,
   Twitter,
-  Globe,
   Save,
-  CheckCircle2,
   Phone
 } from 'lucide-react';
 

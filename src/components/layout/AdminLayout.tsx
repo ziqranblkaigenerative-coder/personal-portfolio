@@ -27,7 +27,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({
   activeNav,
   onNewProjectClick
 }) => {
-  const { user, signOut, isDemoMode } = useAuth();
+  const { user, signOut } = useAuth();
   const { profile } = useProjects();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 

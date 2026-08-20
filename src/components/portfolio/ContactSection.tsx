@@ -7,7 +7,6 @@ import { Button } from '../ui/Button';
 import {
   Mail,
   Send,
-  MessageSquare,
   MapPin,
   Clock,
   Phone,

@@ -11,8 +11,6 @@ import {
   SlidersHorizontal,
   FolderX,
   X,
-  Code2,
-  Sparkles,
   Layers
 } from 'lucide-react';
 

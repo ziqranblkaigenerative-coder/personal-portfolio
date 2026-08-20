@@ -1,16 +1,13 @@
 import React from 'react';
 import { Project } from '../../lib/types';
-import { Dialog, DialogHeader, DialogTitle, DialogDescription } from '../ui/Dialog';
+import { Dialog } from '../ui/Dialog';
 import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 import {
   ExternalLink,
   Github,
   Calendar,
-  Layers,
-  Sparkles,
-  CheckCircle,
-  X
+  Layers
 } from 'lucide-react';
 import { formatDate } from '../../lib/utils';
 

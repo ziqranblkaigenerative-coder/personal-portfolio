@@ -1,8 +1,8 @@
 import React from 'react';
-import { AdminLayout } from '../../components/layout/AdminLayout';
-import { ProfileSettingsForm } from '../../components/admin/ProfileSettingsForm';
-import { Sliders, ExternalLink } from 'lucide-react';
-import { Button } from '../../components/ui/Button';
+import { AdminLayout } from '../components/layout/AdminLayout';
+import { ProfileSettingsForm } from '../components/admin/ProfileSettingsForm';
+import { ExternalLink } from 'lucide-react';
+import { Button } from '../components/ui/Button';
 
 export const AdminProfilePage: React.FC = () => {
   return (

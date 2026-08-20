@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useProjects } from '../../contexts/ProjectContext';
-import { Project } from '../../lib/types';
-import { AdminLayout } from '../../components/layout/AdminLayout';
-import { ProjectTable } from '../../components/admin/ProjectTable';
-import { ProjectFormModal } from '../../components/admin/ProjectFormModal';
-import { SupabaseStatusCard } from '../../components/admin/SupabaseStatusCard';
-import { Card, CardContent } from '../../components/ui/Card';
-import { Button } from '../../components/ui/Button';
+import { useProjects } from '../contexts/ProjectContext';
+import { Project } from '../lib/types';
+import { AdminLayout } from '../components/layout/AdminLayout';
+import { ProjectTable } from '../components/admin/ProjectTable';
+import { ProjectFormModal } from '../components/admin/ProjectFormModal';
+import { SupabaseStatusCard } from '../components/admin/SupabaseStatusCard';
+import { Card, CardContent } from '../components/ui/Card';
+import { Button } from '../components/ui/Button';
 import {
   FolderGit2,
   CheckCircle2,
@@ -14,7 +14,6 @@ import {
   Star,
   Plus,
   Layers,
-  Sparkles,
   ExternalLink
 } from 'lucide-react';
 
@@ -53,9 +52,9 @@ export const AdminDashboard: React.FC = () => {
   };
 
   const totalCount = projects.length;
-  const publishedCount = projects.filter((p) => p.status === 'published').length;
-  const draftCount = projects.filter((p) => p.status === 'draft').length;
-  const featuredCount = projects.filter((p) => p.featured).length;
+  const publishedCount = projects.filter((p: Project) => p.status === 'published').length;
+  const draftCount = projects.filter((p: Project) => p.status === 'draft').length;
+  const featuredCount = projects.filter((p: Project) => p.featured).length;
 
   return (
     <AdminLayout activeNav="projects" onNewProjectClick={handleAddNew}>
