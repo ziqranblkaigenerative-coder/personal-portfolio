@@ -5,7 +5,7 @@ export const INITIAL_PROFILE: ProfileSettings = {
   title: '2D Animator | 3D Animator | Video Editor | AI Generative',
   short_intro: 'Saya adalah kreator digital yang memiliki ketertarikan pada animasi 2D, animasi 3D, video editing, dan teknologi AI generatif. Saya senang mengembangkan ide kreatif menjadi karya visual yang menarik.',
   bio: 'Saya adalah kreator digital yang berlokasi di Banda Aceh, Indonesia. Saya memiliki ketertarikan pada animasi 2D, animasi 3D, video editing, dan teknologi AI generatif. Berbekal pendidikan di SMK Negeri 1 Banda Aceh jurusan Animasi dan pengalaman kerja di LPP TVRI Aceh, saya senang mengembangkan ide kreatif menjadi karya visual yang menarik dan profesional.',
-  avatar_url: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+  avatar_url: '/assets/profile.jpg',
   email: 'eziqran@gmail.com',
   phone: '+62 812-9753-0713',
   location: 'Banda Aceh, Indonesia',

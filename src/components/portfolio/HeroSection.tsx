@@ -161,9 +161,9 @@ export const HeroSection: React.FC = () => {
               {/* Card Container */}
               <div className="relative w-full h-full rounded-3xl bg-white p-3 shadow-2xl border border-slate-200/80 overflow-hidden group">
                 <img
-                  src={profile.avatar_url || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80'}
+                  src={profile.avatar_url || '/assets/profile.jpg'}
                   alt={profile.full_name}
-                  className="w-full h-full object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top rounded-2xl group-hover:scale-105 transition-transform duration-500"
                 />
 
                 {/* Floating Glass Badges */}
