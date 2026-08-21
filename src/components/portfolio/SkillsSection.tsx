@@ -24,7 +24,7 @@ export const SkillsSection: React.FC = () => {
             Tech Stack & Kemampuan
           </h2>
           <p className="text-sm sm:text-base text-slate-500">
-            Kombinasi teknologi modern yang saya gunakan dalam membangun solusi digital end-to-end yang tangguh dan skalabel.
+            Kombinasi perangkat lunak dan kemampuan yang saya gunakan dalam menciptakan karya visual dan animasi yang menarik.
           </p>
         </div>
 

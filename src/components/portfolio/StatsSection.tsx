@@ -12,25 +12,25 @@ export const StatsSection: React.FC = () => {
       label: 'Tahun Pengalaman',
       value: profile.stats?.years_experience || '4+',
       icon: Briefcase,
-      description: 'Membangun aplikasi industri'
+      description: 'Pengalaman di industri kreatif'
     },
     {
       label: 'Proyek Selesai',
       value: publishedCount ? `${publishedCount}+` : (profile.stats?.projects_completed || '25+'),
       icon: CheckCircle2,
-      description: 'Web, mobile & SaaS'
+      description: 'Animasi, Video & Desain'
     },
     {
       label: 'Klien & Partner Puas',
       value: profile.stats?.happy_clients || '15+',
       icon: Award,
-      description: 'Startup & enterprise'
+      description: 'Klien personal & bisnis'
     },
     {
       label: 'Teknologi Dikuasai',
       value: profile.stats?.tech_masteries || '12+',
       icon: Cpu,
-      description: 'Frontend & backend BaaS'
+      description: 'Software kreatif & AI tools'
     }
   ];
 

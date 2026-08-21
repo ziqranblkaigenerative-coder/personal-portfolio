@@ -140,7 +140,7 @@ export const ContactSection: React.FC = () => {
               </div>
               <h4 className="text-lg font-bold">Siap Menerima Proyek Baru</h4>
               <p className="text-xs text-blue-100 leading-relaxed">
-                Terbuka untuk posisi Full-time, Kontrak Remote, maupun Konsultasi Arsitektur Web.
+                Terbuka untuk posisi Full-time, Kontrak Remote, maupun Kolaborasi Proyek Kreatif.
               </p>
             </div>
           </div>

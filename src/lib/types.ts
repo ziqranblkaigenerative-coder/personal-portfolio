@@ -73,12 +73,10 @@ export interface UserSession {
 
 export const PROJECT_CATEGORIES = [
   'Semua',
-  'Web App',
-  'Fullstack',
-  'Mobile App',
-  'UI/UX Design',
-  'Backend & API',
-  'AI / Machine Learning'
+  '2D Animation',
+  '3D Animation',
+  'Video Editing',
+  'AI Generative'
 ] as const;
 
 export type CategoryFilter = typeof PROJECT_CATEGORIES[number];

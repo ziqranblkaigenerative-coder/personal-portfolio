@@ -44,11 +44,11 @@ export const HeroSection: React.FC = () => {
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-              Membangun Aplikasi Web{' '}
+              Menciptakan Karya Visual{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-sky-500">
-                Modern, Cepat,
+                Animasi & Video
               </span>{' '}
-              & Berskala Besar.
+              Kreatif.
             </h1>
 
             {/* Sub-headline / Intro */}
@@ -65,7 +65,7 @@ export const HeroSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>React & Supabase Specialist</span>
+                <span>Animator & Digital Creator</span>
               </div>
             </div>
 

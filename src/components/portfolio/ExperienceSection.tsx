@@ -18,7 +18,7 @@ export const ExperienceSection: React.FC = () => {
             Pengalaman & Pendidikan
           </h2>
           <p className="text-sm sm:text-base text-slate-500">
-            Perjalanan profesional saya dalam mengembangkan perangkat lunak dan arsitektur web modern.
+            Perjalanan profesional saya dalam industri kreatif, animasi, dan produksi media.
           </p>
         </div>
 
